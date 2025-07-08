@@ -1,0 +1,107 @@
+┌─────────┬────────┬──────────┬──────────────────────┬──────────┬─────────────────────────┐
+│ Индекс  │ Хэш    │ Статус   │ ФИО                  │ ID       │ Значение                │
+├─────────┼────────┼──────────┼──────────────────────┼──────────┼─────────────────────────┤
+│       2 │      2 │ Занято   │ Sidorov Kirill Al... │       62 │ Sidorov Kirill Alexeev... │
+│       6 │      6 │ Занято   │ Morozov Artem Nik... │       72 │ Morozov Artem Nikolaev... │
+│       8 │      8 │ Занято   │ Smirnov Artem Nik... │       52 │ Smirnov Artem Nikolaev... │
+│       9 │      9 │ Занято   │ Ivanov Yuri Yurie... │        1 │ Ivanov Yuri Yurievich ... │
+│      10 │     10 │ Занято   │ Novikov Kirill Yu... │       30 │ Novikov Kirill Yurievi... │
+│      11 │     11 │ Занято   │ Novikov Kirill Al... │       90 │ Novikov Kirill Alexeev... │
+│      13 │     13 │ Занято   │ Novikov Vladislav... │       57 │ Novikov Vladislav Serg... │
+│      14 │     13 │ Занято   │ Smirnov Artem And... │       75 │ Smirnov Artem Andreevi... │
+│      15 │     15 │ Занято   │ Smirnov Nikita Al... │       87 │ Smirnov Nikita Alexeev... │
+│      22 │     22 │ Занято   │ Morozov Vadim Ale... │        6 │ Morozov Vadim Alexeevi... │
+│      23 │     23 │ Занято   │ Popov Nikita Petr... │       12 │ Popov Nikita Petrovich... │
+│      32 │     32 │ Занято   │ Petrov Alexey Pet... │       70 │ Petrov Alexey Petrovic... │
+│      33 │     33 │ Занято   │ Lebedev Yuri Alex... │       63 │ Lebedev Yuri Alexeevic... │
+│      34 │     34 │ Занято   │ Petrov Vadim Niko... │       18 │ Petrov Vadim Nikolaevi... │
+│      35 │     33 │ Занято   │ Popov Kirill Yuri... │       68 │ Popov Kirill Yurievich... │
+│      36 │     36 │ Занято   │ Ivanov Vladislav ... │       67 │ Ivanov Vladislav Alexe... │
+│      37 │     32 │ Занято   │ Sidorov Artem Ale... │       91 │ Sidorov Artem Alexeevi... │
+│      40 │     40 │ Занято   │ Popov Vladislav S... │       58 │ Popov Vladislav Sergee... │
+│      41 │     40 │ Занято   │ Petrov Oleg Nikol... │       93 │ Petrov Oleg Nikolaevic... │
+│      44 │     44 │ Занято   │ Ivanov Vadim Andr... │       17 │ Ivanov Vadim Andreevic... │
+│      45 │     44 │ Занято   │ Petrov Nikita Nik... │       42 │ Petrov Nikita Nikolaev... │
+│      46 │     46 │ Занято   │ Ivanov Vadim Yuri... │        4 │ Ivanov Vadim Yurievich... │
+│      50 │     50 │ Занято   │ Smirnov Kirill Pe... │       37 │ Smirnov Kirill Petrovi... │
+│      51 │     50 │ Занято   │ Smirnov Alexey Al... │       59 │ Smirnov Alexey Alexeev... │
+│      52 │     52 │ Занято   │ Lebedev Alexey Al... │       51 │ Lebedev Alexey Alexeev... │
+│      53 │     53 │ Занято   │ Sidorov Artem Nik... │       36 │ Sidorov Artem Nikolaev... │
+│      55 │     55 │ Занято   │ Novikov Vadim Pet... │       49 │ Novikov Vadim Petrovic... │
+│      56 │     55 │ Занято   │ Smirnov Kirill Yu... │       79 │ Smirnov Kirill Yurievi... │
+│      57 │     55 │ Занято   │ Lebedev Vladislav... │       83 │ Lebedev Vladislav Niko... │
+│      58 │     58 │ Занято   │ Novikov Oleg Alex... │       61 │ Novikov Oleg Alexeevic... │
+│      59 │     59 │ Занято   │ Petrov Artem Niko... │       80 │ Petrov Artem Nikolaevi... │
+│      60 │     56 │ Занято   │ Popov Yuri Sergee... │       92 │ Popov Yuri Sergeevich ... │
+│      63 │     63 │ Занято   │ Popov Nikita Yuri... │       24 │ Popov Nikita Yurievich... │
+│      65 │     65 │ Занято   │ Morozov Alexey Ni... │       35 │ Morozov Alexey Nikolae... │
+│      67 │     67 │ Занято   │ Ivanov Oleg Petro... │       69 │ Ivanov Oleg Petrovich ... │
+│      68 │     67 │ Занято   │ Morozov Vadim Pet... │       89 │ Morozov Vadim Petrovic... │
+│      73 │     73 │ Занято   │ Morozov Yuri Serg... │       73 │ Morozov Yuri Sergeevic... │
+│      78 │     78 │ Занято   │ Popov Yuri Nikola... │       21 │ Popov Yuri Nikolaevich... │
+│      79 │     78 │ Занято   │ Lebedev Yuri Alex... │       31 │ Lebedev Yuri Alexeevic... │
+│      80 │     80 │ Занято   │ Sidorov Oleg Petr... │        5 │ Sidorov Oleg Petrovich... │
+│      81 │     81 │ Занято   │ Novikov Alexey Al... │       38 │ Novikov Alexey Alexeev... │
+│      82 │     82 │ Занято   │ Sidorov Vadim Ser... │       81 │ Sidorov Vadim Sergeevi... │
+│      84 │     84 │ Занято   │ Ivanov Vladislav ... │       98 │ Ivanov Vladislav Petro... │
+│      86 │     86 │ Занято   │ Lebedev Yuri Serg... │       82 │ Lebedev Yuri Sergeevic... │
+│      90 │     90 │ Занято   │ Popov Vladislav N... │       84 │ Popov Vladislav Nikola... │
+│      91 │     91 │ Занято   │ Novikov Kirill Yu... │       97 │ Novikov Kirill Yurievi... │
+│      92 │     92 │ Занято   │ Popov Vadim Andre... │       86 │ Popov Vadim Andreevich... │
+│      94 │     94 │ Занято   │ Popov Vadim Nikol... │        2 │ Popov Vadim Nikolaevic... │
+│      95 │     94 │ Занято   │ Ivanov Vadim Petr... │       32 │ Ivanov Vadim Petrovich... │
+│      96 │     96 │ Занято   │ Lebedev Oleg Petr... │        3 │ Lebedev Oleg Petrovich... │
+│      97 │     94 │ Занято   │ Popov Artem Nikol... │       46 │ Popov Artem Nikolaevic... │
+│     100 │    100 │ Занято   │ Novikov Alexey Pe... │       64 │ Novikov Alexey Petrovi... │
+│     102 │    102 │ Занято   │ Smirnov Vladislav... │       77 │ Smirnov Vladislav Yuri... │
+│     103 │    103 │ Занято   │ Novikov Oleg Alex... │       29 │ Novikov Oleg Alexeevic... │
+│     112 │    112 │ Занято   │ Popov Vadim Yurie... │       55 │ Popov Vadim Yurievich ... │
+│     116 │    116 │ Занято   │ Petrov Kirill Ser... │       45 │ Petrov Kirill Sergeevi... │
+│     118 │    118 │ Занято   │ Popov Alexey Alex... │       48 │ Popov Alexey Alexeevic... │
+│     132 │    132 │ Занято   │ Popov Nikita Yuri... │       10 │ Popov Nikita Yurievich... │
+│     134 │    134 │ Занято   │ Lebedev Artem Yur... │       96 │ Lebedev Artem Yurievic... │
+│     136 │    136 │ Занято   │ Ivanov Alexey And... │       44 │ Ivanov Alexey Andreevi... │
+│     137 │    136 │ Занято   │ Sidorov Artem Yur... │       65 │ Sidorov Artem Yurievic... │
+│     140 │    140 │ Занято   │ Petrov Nikita Yur... │       50 │ Petrov Nikita Yurievic... │
+│     142 │    142 │ Занято   │ Popov Nikita Serg... │       19 │ Popov Nikita Sergeevic... │
+│     143 │    142 │ Занято   │ Lebedev Vadim And... │       56 │ Lebedev Vadim Andreevi... │
+│     144 │    142 │ Занято   │ Sidorov Artem Yur... │       78 │ Sidorov Artem Yurievic... │
+│     147 │    147 │ Занято   │ Smirnov Oleg Andr... │       14 │ Smirnov Oleg Andreevic... │
+│     148 │    147 │ Занято   │ Popov Alexey Niko... │       16 │ Popov Alexey Nikolaevi... │
+│     149 │    149 │ Занято   │ Smirnov Alexey An... │       23 │ Smirnov Alexey Andreev... │
+│     150 │    147 │ Занято   │ Sidorov Vladislav... │       26 │ Sidorov Vladislav Alex... │
+│     151 │    148 │ Занято   │ Sidorov Kirill Al... │       47 │ Sidorov Kirill Alexeev... │
+│     152 │    152 │ Занято   │ Popov Kirill Alex... │        7 │ Popov Kirill Alexeevic... │
+│     153 │    152 │ Занято   │ Ivanov Oleg Andre... │       40 │ Ivanov Oleg Andreevich... │
+│     154 │    150 │ Занято   │ Sidorov Oleg Yuri... │       54 │ Sidorov Oleg Yurievich... │
+│     155 │    152 │ Занято   │ Sidorov Kirill Ni... │       71 │ Sidorov Kirill Nikolae... │
+│     156 │    155 │ Занято   │ Ivanov Oleg Andre... │       74 │ Ivanov Oleg Andreevich... │
+│     157 │    155 │ Занято   │ Smirnov Artem Yur... │       85 │ Smirnov Artem Yurievic... │
+│     158 │    158 │ Занято   │ Popov Oleg Andree... │        8 │ Popov Oleg Andreevich ... │
+│     159 │    159 │ Занято   │ Petrov Oleg Yurie... │       27 │ Petrov Oleg Yurievich ... │
+│     160 │    159 │ Занято   │ Novikov Nikita Pe... │       34 │ Novikov Nikita Petrovi... │
+│     161 │    161 │ Занято   │ Popov Nikita Alex... │       20 │ Popov Nikita Alexeevic... │
+│     162 │    160 │ Занято   │ Morozov Alexey Al... │       39 │ Morozov Alexey Alexeev... │
+│     163 │    163 │ Занято   │ Lebedev Kirill Al... │        9 │ Lebedev Kirill Alexeev... │
+│     164 │    163 │ Занято   │ Novikov Yuri Niko... │       13 │ Novikov Yuri Nikolaevi... │
+│     165 │    162 │ Занято   │ Smirnov Vadim Nik... │       95 │ Smirnov Vadim Nikolaev... │
+│     166 │    152 │ Занято   │ Sidorov Vadim And... │       99 │ Sidorov Vadim Andreevi... │
+│     171 │    171 │ Занято   │ Petrov Vadim Alex... │       76 │ Petrov Vadim Alexeevic... │
+│     174 │    174 │ Занято   │ Novikov Vladislav... │       15 │ Novikov Vladislav Alex... │
+│     175 │    174 │ Занято   │ Ivanov Yuri Nikol... │       41 │ Ivanov Yuri Nikolaevic... │
+│     176 │    174 │ Занято   │ Popov Vladislav A... │       53 │ Popov Vladislav Alexee... │
+│     178 │    178 │ Занято   │ Lebedev Yuri Petr... │       22 │ Lebedev Yuri Petrovich... │
+│     180 │    180 │ Занято   │ Ivanov Vladislav ... │       88 │ Ivanov Vladislav Andre... │
+│     182 │    182 │ Занято   │ Lebedev Artem Yur... │       43 │ Lebedev Artem Yurievic... │
+│     183 │    183 │ Занято   │ Morozov Vladislav... │       60 │ Morozov Vladislav Niko... │
+│     184 │    183 │ Занято   │ Smirnov Vladislav... │       66 │ Smirnov Vladislav Alex... │
+│     186 │    186 │ Занято   │ Popov Vladislav N... │       33 │ Popov Vladislav Nikola... │
+│     187 │    187 │ Занято   │ Sidorov Alexey Pe... │       94 │ Sidorov Alexey Petrovi... │
+│     188 │    188 │ Занято   │ Novikov Yuri Andr... │      100 │ Novikov Yuri Andreevic... │
+│     190 │    190 │ Занято   │ Popov Yuri Andree... │       28 │ Popov Yuri Andreevich ... │
+│     196 │    196 │ Занято   │ Popov Kirill Andr... │       11 │ Popov Kirill Andreevic... │
+│     197 │    196 │ Занято   │ Smirnov Alexey An... │       25 │ Smirnov Alexey Andreev... │
+└─────────┴────────┴──────────┴──────────────────────┴──────────┴─────────────────────────┘
+
+Результаты поиска:
+Ключ не найден. Шагов = 1
